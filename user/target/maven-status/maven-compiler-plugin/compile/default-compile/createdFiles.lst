@@ -1,0 +1,5 @@
+com\imee\user\mapper\UserMapper.class
+com\imee\user\service\UserService.class
+com\imee\user\controller\UserController.class
+com\imee\user\model\User.class
+com\imee\user\service\impl\UserServiceImpl.class

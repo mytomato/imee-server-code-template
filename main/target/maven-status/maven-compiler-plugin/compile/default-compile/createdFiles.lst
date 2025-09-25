@@ -1,0 +1,5 @@
+com\imee\main\config\DataInitializer.class
+com\imee\main\controller\HelloController.class
+com\imee\main\config\UserModuleConfig.class
+com\imee\main\Application.class
+com\imee\main\config\MybatisPlusConfig.class
