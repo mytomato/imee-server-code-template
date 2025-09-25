@@ -168,7 +168,6 @@ mvn spring-boot:run
 
 项目启动后，可通过以下地址访问接口：
 
-- 用户管理接口：`http://localhost:8080/api/users`
 - Hello 接口：`http://localhost:8080/hello`
 
 用户管理模块提供以下RESTful API接口：
