@@ -70,47 +70,7 @@
             <dependency>
                 <groupId>com.imee</groupId>
                 <artifactId>user</artifactId>
-            <dependency>
-                <groupId>com.imee</groupId>
-                <artifactId>algorithm</artifactId>
                 <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.imee</groupId>
-                <artifactId>workflow</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.imee</groupId>
-                <artifactId>statistics</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.imee</groupId>
-                <artifactId>portal</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-                <version>${project.version}</version>
-            <dependency>
-                <groupId>com.imee</groupId>
-                <artifactId>algorithm</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.imee</groupId>
-                <artifactId>workflow</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.imee</groupId>
-                <artifactId>statistics</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.imee</groupId>
-                <artifactId>portal</artifactId>
-                <version>${project.version}</version>
-            </dependency>
             </dependency>
             <dependency>
                 <groupId>com.imee</groupId>
