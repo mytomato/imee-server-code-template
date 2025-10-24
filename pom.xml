@@ -20,6 +20,10 @@
         <module>common</module>
         <module>main</module>
         <module>user</module>
+        <module>algorithm</module>
+        <module>workflow</module>
+        <module>statistics</module>
+        <module>portal</module>
     </modules>
 
     <properties>
@@ -66,6 +70,66 @@
             <dependency>
                 <groupId>com.imee</groupId>
                 <artifactId>user</artifactId>
+            <dependency>
+                <groupId>com.imee</groupId>
+                <artifactId>algorithm</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.imee</groupId>
+                <artifactId>workflow</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.imee</groupId>
+                <artifactId>statistics</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.imee</groupId>
+                <artifactId>portal</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+                <version>${project.version}</version>
+            <dependency>
+                <groupId>com.imee</groupId>
+                <artifactId>algorithm</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.imee</groupId>
+                <artifactId>workflow</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.imee</groupId>
+                <artifactId>statistics</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.imee</groupId>
+                <artifactId>portal</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            </dependency>
+            <dependency>
+                <groupId>com.imee</groupId>
+                <artifactId>algorithm</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.imee</groupId>
+                <artifactId>workflow</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.imee</groupId>
+                <artifactId>statistics</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.imee</groupId>
+                <artifactId>portal</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
