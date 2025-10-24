@@ -16,4 +16,9 @@ public class VersionCreateDTO {
     private String description;
 
     private String changelog;
+
+    // 添加缺失的getter方法
+    public String getVersion() {
+        return version;
+    }
 }

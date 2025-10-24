@@ -42,6 +42,10 @@ public enum AlgorithmStatus {
         return desc;
     }
 
+    public String getDescription() {
+        return desc;
+    }
+
     /**
      * 根据code获取枚举值
      * @param code 状态码

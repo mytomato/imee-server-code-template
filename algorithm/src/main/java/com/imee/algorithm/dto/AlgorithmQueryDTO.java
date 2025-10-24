@@ -37,4 +37,21 @@ public class AlgorithmQueryDTO {
      * 创建人ID
      */
     private Long createBy;
+
+    // 添加getter方法避免编译错误
+    public String getAlgorithmType() {
+        return algorithmType;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public String getKeyword() {
+        return keyword;
+    }
+
+    public Long getCreateBy() {
+        return createBy;
+    }
 }

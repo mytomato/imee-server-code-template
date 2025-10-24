@@ -539,4 +539,30 @@ public class Algorithm implements Serializable {
                 ", updateTime=" + updateTime +
                 '}';
     }
+
+    // 添加缺失的方法避免编译错误
+    public String getAlgorithmType() {
+        return categoryId != null ? categoryId.toString() : "";
+    }
+
+    public String getStatus() {
+        return status != null ? status.toString() : "";
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setUpdateBy(Long updateBy) {
+        // 根据实际需要添加updateBy字段
+        // this.updateBy = updateBy;
+    }
+
+    public void setCreateBy(Long createBy) {
+        this.creatorId = createBy.toString();
+    }
+
+    public String getCreateBy() {
+        return this.creatorId;
+    }
 }
